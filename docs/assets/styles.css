@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(164, 218, 153);
+}
+
+h1 {
+  /* color: navy; */
+  margin-left: 20px;
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+ul.ingredients-list {
+  list-style: square inside;
+}
+
+ol.directions-list {
+  list-style: lower-alpha inside;
+}
+
+/* selects all images that are immediate children of header element */
+header > img {
+  width: 100px;
+}
+
+ul a{
+  text-decoration: none;
+  color: inherit;
+}
+
+div.user_review {
+  color: rgb(54, 48, 48, 0.9);
+  background: rgba(0, 151, 19, 0.6);
+  margin: 10px;
+}
